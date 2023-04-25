@@ -17,6 +17,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@SuppressWarnings("deprecation")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     //创建BCryptPasswordEncoder注入容器
